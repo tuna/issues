@@ -5,6 +5,8 @@
 - Mirror Requests 镜像请求
 - Service Issues 服务故障
 
+**注: 由于 TUNA mirrors 磁盘基本占满，我们近期将对服务器进行扩容，完成后将继续添加新镜像。**
+
 ## 申请新镜像
 
 你可以通过提交 Issue 的方式建议 TUNA 为某个开源项目进行镜像。

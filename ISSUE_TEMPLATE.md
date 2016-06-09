@@ -1,8 +1,10 @@
+<!--
 如果你希望 TUNA 对某个开源项目设立镜像，请按以下模板填写
 
 If you request TUNA to setup a mirror site for an open-source project, please submit you issue using the following template.
 
 提交时，请去掉上面两句，还有这一句。如果不是设立镜像请求，无需按此格式填写。
+-->
 
 #### 项目名称与简介(Project Intro.)
 

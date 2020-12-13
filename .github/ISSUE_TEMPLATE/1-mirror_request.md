@@ -14,4 +14,5 @@ If you request TUNA to setup a mirror site for an open-source project, please su
 #### 上游地址与镜像方法(How to Mirror)
 
 #### 其他信息(Other)
-- 镜像大小(Mirror Size): 
+- 镜像大小(Mirror Size)：
+- 该镜像需求是否被之前的 issue 提出过：

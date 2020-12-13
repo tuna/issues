@@ -17,6 +17,7 @@ Please use this template while reporting a bug and provide as much info as possi
 #### 如何重现（How to reproduce it）
 
 #### 其他事项（Anything else we need to know）
+- 该问题是否被之前的 issue 提出过：
 
 #### 您的环境（Environment）
 - 操作系统（OS Version）：

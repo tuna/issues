@@ -16,3 +16,4 @@ If you request TUNA to setup a mirror site for an open-source project, please su
 #### 其他信息(Other)
 - 镜像大小(Mirror Size)：
 - 该镜像需求是否被之前的 issue 提出过：
+- 是否阅读了[请求新镜像前必读（试行）](https://github.com/tuna/issues/issues/741)：

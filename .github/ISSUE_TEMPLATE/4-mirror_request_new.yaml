@@ -1,0 +1,59 @@
+name: Mirror request / 镜像请求 (新)
+description: Suggest setting up new mirrors / 建议设立新的镜像
+title: "[镜像请求] "
+labels: [MirrorRequest]
+body:
+  - type: markdown
+    id: introduction
+    attributes:
+      value: |
+        欢迎向 TUNA 提交新镜像请求。如果你希望 TUNA 对某个开源项目设立镜像，请按以下模板填写。
+  - type: textarea
+    id: name
+    attributes:
+      label: 项目名称与简介 (Project Intro.)
+    validations:
+      required: true
+  - type: textarea
+    id: upstream
+    attributes:
+      label: 上游地址与镜像方法 (How to Mirror)
+    validations:
+      required: true
+  - type: markdown
+    id: other_info
+    attributes:
+      value: |
+        ---
+        其他信息 (Other)
+  - type: textarea
+    id: sync_method
+    attributes:
+      label: 镜像大小 (Mirror Size)
+    validations:
+      required: false
+  - type: textarea
+    id: more_info
+    attributes:
+      label: 备注
+    validations:
+      required: false
+  - type: checkboxes
+    id: mirrors
+    attributes:
+      label: 期望上线镜像站
+      options:
+        - label: TUNA - https://mirrors.tuna.tsinghua.edu.cn
+        - label: BFSU - https://mirrors.bfsu.edu.cn
+        - label: OpenTUNA - https://opentuna.cn
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 注意事项
+      options:
+        - label: 我已确认这个镜像源从未在 https://github.com/tuna/issues 讨论过。
+          required: true
+        - label: 我已确认这个镜像源没有在 TUNA 镜像站上线。
+          required: true
+        - label: 我已阅读 [请求新镜像前必读（试行）](https://github.com/tuna/issues/issues/741)
+          required: true

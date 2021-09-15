@@ -8,40 +8,35 @@ body:
     attributes:
       value: |
         欢迎向 TUNA 提交新镜像请求。如果你希望 TUNA 对某个开源项目设立镜像，请按以下模板填写。
+        If you request TUNA to setup a mirror site for an open-source project, please submit you issue using the following template.
   - type: textarea
     id: name
     attributes:
-      label: 项目名称与简介 (Project Intro.)
+      label: 项目名称与简介 (Project introduction)
     validations:
       required: true
   - type: textarea
     id: upstream
     attributes:
-      label: 上游地址与镜像方法 (How to Mirror)
+      label: 上游地址与镜像方法 (How to mirror)
     validations:
       required: true
-  - type: markdown
-    id: other_info
-    attributes:
-      value: |
-        ---
-        其他信息 (Other)
   - type: textarea
     id: sync_method
     attributes:
-      label: 镜像大小 (Mirror Size)
+      label: 镜像大小 (Mirror size)
     validations:
       required: false
   - type: textarea
     id: more_info
     attributes:
-      label: 备注
+      label: 备注 (Note)
     validations:
       required: false
   - type: checkboxes
     id: mirrors
     attributes:
-      label: 期望上线镜像站
+      label: 期望上线的镜像站 (Required mirroring sites)
       options:
         - label: TUNA - https://mirrors.tuna.tsinghua.edu.cn
         - label: BFSU - https://mirrors.bfsu.edu.cn
@@ -51,9 +46,15 @@ body:
     attributes:
       label: 注意事项
       options:
-        - label: 我已确认这个镜像源从未在 https://github.com/tuna/issues 讨论过。
+        - label: |
+            我已确认这个镜像源从未在 https://github.com/tuna/issues 讨论过。
+            I am sure that this repo has NEVER been discussion at https://github.com/tuna/issues.
           required: true
-        - label: 我已确认这个镜像源没有在 TUNA 镜像站上线。
+        - label: |
+            我已确认这个镜像源没有我选择的镜像站上线。
+            I am sure that this repo has NOT currently be provided by the sites I select.
           required: true
-        - label: 我已阅读 [请求新镜像前必读（试行）](https://github.com/tuna/issues/issues/741)
+        - label: | 
+            我已仔细阅读 [请求新镜像前必读（试行）](https://github.com/tuna/issues/issues/741)。
+            I have CAREFULLY read the [mirroring rules](https://github.com/tuna/issues/issues/741).
           required: true

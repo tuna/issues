@@ -26,11 +26,6 @@ body:
       label: 如何重现此问题（How to reproduce it）
     validations:
       required: true
-  - type: markdown
-    id: introduction
-    attributes:
-      value: |
-        ## 您的环境（Environment）
   - type: input
     id: os_version
     attributes:
@@ -42,7 +37,7 @@ body:
   - type: textarea
     id: other_env
     attributes:
-      label: 其他（Others）
+      label: 其他环境（Other environments）
   - type: textarea
     id: others
     attributes:

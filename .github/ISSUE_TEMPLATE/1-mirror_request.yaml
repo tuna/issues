@@ -15,8 +15,8 @@ body:
       label: 先决条件 (Prerequisites)
       options:
         - label: |
-            我已确认这个镜像源从未在 https://github.com/tuna/issues 讨论过。
-            I am sure that this repo has NEVER been discussed at https://github.com/tuna/issues.
+            我已确认这个镜像源从未在 [其他 issues](https://github.com/tuna/issues)  中讨论过。
+            I am sure that this repo has NEVER been discussed in [other issues](https://github.com/tuna/issues).
           required: true
         - label: |
             我已确认这个镜像源没有我选择的镜像站上线。

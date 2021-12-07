@@ -17,7 +17,7 @@ TUNA 致力于成为开放包容的开源社区。我们欢迎任何人或组织
 * 暂时将对应的 GitHub 用户从 TUNA 组织中封禁
 * 永久将对应的 GitHub 用户从 TUNA 组织中封禁
 
-无论是否进行上述处理，TUNA 均可能向 GitHub 或有管辖权的机构/组织报告相应事件，并将其以公开形式记录在[本仓库](https://github.com/tuna/issues/issues/1399)中。
+无论是否进行上述处理，TUNA 均可能向 GitHub 或有管辖权的机构/组织报告相应事件，并将其以公开形式记录在[这个仓库](https://github.com/tuna/issues/issues/1399)中。
 
 ## 申诉
 

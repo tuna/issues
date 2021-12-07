@@ -8,6 +8,15 @@ body:
       value: |
         请使用此模板来报告 bug，并尽可能多地提供信息。
         Please use this template while reporting a bug and provide as much info as possible.
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: 先决条件 (Prerequisites)
+      options:
+        - label: |
+            我已确认这个问题没有在[其他 issues](https://github.com/tuna/issues/issues)中提出过。
+            I am sure that this problem has NEVER been discussed in [other issues](https://github.com/tuna/issues/issues).
+          required: true
   - type: textarea
     id: what_happened
     attributes:
@@ -42,11 +51,4 @@ body:
     id: others
     attributes:
       label: 其他需要说明的事项（Anything else we need to know）
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: 注意事项 (Confirmations)
-      options:
-        - label: |
-            我已确认这个问题没有在其他 issue 中提出过。
-            I am sure that this problem has NEVER been discussed in other issues.
+

@@ -1,6 +1,6 @@
 # TUNA Issues
 
-[点此提交 Issue](https://github.com/tuna/issues/issues/new)
+[点此提交 Issue](https://github.com/tuna/issues/issues/new/choose)
 
 - Mirror Requests / 镜像请求
 - Bug Report / 故障报告

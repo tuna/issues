@@ -9,6 +9,23 @@ body:
       value: |
         欢迎向 TUNA 提交新镜像请求。如果你希望 TUNA 对某个开源项目设立镜像，请按以下模板填写。
         If you request TUNA to setup a mirror site for an open-source project, please submit you issue using the following template.
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: 先决条件 (Prerequisites)
+      options:
+        - label: |
+            我已确认这个镜像源从未在 https://github.com/tuna/issues 讨论过。
+            I am sure that this repo has NEVER been discussed at https://github.com/tuna/issues.
+          required: true
+        - label: |
+            我已确认这个镜像源没有我选择的镜像站上线。
+            I am sure that this repo has NOT currently be provided by the sites I select.
+          required: true
+        - label: | 
+            我已仔细阅读 [请求新镜像前必读（试行）](https://github.com/tuna/issues/issues/741)。
+            I have CAREFULLY read the [mirroring rules](https://github.com/tuna/issues/issues/741).
+          required: true
   - type: textarea
     id: name
     attributes:
@@ -41,20 +58,4 @@ body:
         - label: TUNA - https://mirrors.tuna.tsinghua.edu.cn
         - label: BFSU - https://mirrors.bfsu.edu.cn
         - label: OpenTUNA - https://opentuna.cn
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: 注意事项 (Confirmations)
-      options:
-        - label: |
-            我已确认这个镜像源从未在 https://github.com/tuna/issues 讨论过。
-            I am sure that this repo has NEVER been discussed at https://github.com/tuna/issues.
-          required: true
-        - label: |
-            我已确认这个镜像源没有我选择的镜像站上线。
-            I am sure that this repo has NOT currently be provided by the sites I select.
-          required: true
-        - label: | 
-            我已仔细阅读 [请求新镜像前必读（试行）](https://github.com/tuna/issues/issues/741)。
-            I have CAREFULLY read the [mirroring rules](https://github.com/tuna/issues/issues/741).
-          required: true
+

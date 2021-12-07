@@ -1,4 +1,4 @@
-name: Bug report / Bug 报告
+name: Bug report / 故障报告
 description: Report a bug you found when using TUNA mirrors / 报告在使用 TUNA 镜像站时出现的 bug
 labels: ["Service Issue"]
 body:

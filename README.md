@@ -1,16 +1,11 @@
 # TUNA Issues
 
-[点此提交Issue](https://github.com/tuna/issues/issues/new)
+[点此提交 Issue](https://github.com/tuna/issues/issues/new)
 
-- Mirror Requests 镜像请求
-- Service Issues 服务故障
+- Mirror Requests / 镜像请求
+- Bug Report / 故障报告
+- Others / 其他事项
 
-## 申请新镜像
+在本仓库中进行任何贡献之前，请确保您已经阅读并接受[行为准则](https://github.com/tuna/issues/blob/master/CODE_OF_CONDUCT.md)，并参照[贡献指南](https://github.com/tuna/issues/blob/master/CONTRIBUTING.md)书写内容。
 
-你可以通过提交 Issue 的方式建议 TUNA 为某个开源项目进行镜像。
-
-请在申请内容中写明：
-- 项目名称
-- 项目简介
-- 上游源地址，或镜像方法
-- 尽量详细的镜像信息（例如镜像大小）
+Before you make any contribution in this repository, make sure that you have read and accepted our [Code of Conduct](https://github.com/tuna/issues/blob/master/CODE_OF_CONDUCT.md) and conform to our [Contribution Guide](https://github.com/tuna/issues/blob/master/CONTRIBUTING.md) (in Chinese only).

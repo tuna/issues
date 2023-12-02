@@ -57,5 +57,4 @@ body:
       options:
         - label: TUNA - https://mirrors.tuna.tsinghua.edu.cn
         - label: BFSU - https://mirrors.bfsu.edu.cn
-        - label: OpenTUNA - https://opentuna.cn
 

@@ -1,5 +1,6 @@
 name: Unblock request / 解封请求
 description: Request to unblock your IP address on TUNA Mirrors / 请求解封从 TUNA 镜像站解封您的 IP 地址
+title: "[Unblock]: "
 labels: ["Unblock Request"]
 body:
   - type: markdown
@@ -17,8 +18,8 @@ body:
       label: 先决条件 (Prerequisites)
       options:
         - label: |
-            我已确认我没有就相同的网络环境提出请求。
-            I have confirmed that I have not made a request within the same network environment.
+            我已确认我此前没有就相同的网络环境提出解封请求。
+            I have confirmed that I have not made a request for the same network environment.
           required: true
         - label: |
             我已确认我没有在请求中包含敏感信息（如 IP 地址，具体地理位置等）。

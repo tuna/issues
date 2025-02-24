@@ -32,19 +32,19 @@ body:
             我理解 TUNA 并不一定会解封我的 IP 地址，或者对封禁做出任何解释。
             I understand that TUNA is not obligated to unblock my IP address or provide any explanation for the block.
           required: true
-  - type: textarea
+  - type: input
     id: forbidden_url
     attributes:
-      label: 被封禁的 URL（The URL you tried to access）
+      label: 某个被封禁的 URL（Some URL you tried to access but blocked）
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: forbidden_code
     attributes:
       label: 页面上红色的形如 `00000088` 的十六进制状态代码（Red hexadecimal status code like `00000088` on the page）
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: access_id
     attributes:
       label: 页面上红色的十六字节请求编码（Red hexadecimal request ID on the page）
@@ -65,4 +65,4 @@ body:
   - type: textarea
     id: purpose
     attributes:
-      label: 您下载的目的（Purpose of your access）
+      label: 您下载的目的和（如有）其他说明（Purpose of your access and other notes, if applicable）

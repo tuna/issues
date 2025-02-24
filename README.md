@@ -2,7 +2,8 @@
 
 [点此提交 Issue](https://github.com/tuna/issues/issues/new/choose)
 
-- Mirror Requests / 镜像请求
+- Mirror Request / 镜像请求
+- Unblock Request / 解封请求
 - Bug Report / 故障报告
 - Others / 其他事项
 

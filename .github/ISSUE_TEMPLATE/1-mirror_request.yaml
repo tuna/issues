@@ -57,4 +57,9 @@ body:
       options:
         - label: TUNA - https://mirrors.tuna.tsinghua.edu.cn
         - label: BFSU - https://mirrors.bfsu.edu.cn
-
+  - type: textarea
+    id: other_mirrors
+    attributes:
+      label: |
+        已经上线此项目的其他教育网镜像站（可在 [教育网联合镜像站](https://mirrors.cernet.edu.cn/list/) 查询）
+        Other CERNET mirrors that already have this project (lookup at [CERNET Mirrors](https://mirrors.cernet.edu.cn/list/))
